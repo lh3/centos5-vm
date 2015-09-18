@@ -10,7 +10,7 @@ often work on recent Linux distributions. CentOS 5 gives a way to generate
 portable executables.
 
 This virtual repository (with no code and data) describes how to deploy CentOS
-5 virtual machine (VM) on your laptop or desktop computers such as you can test
+5 virtual machine (VM) on your laptop or desktop computers such that you can test
 your programs on this older system and produce portable precompiled binaries.
 
 #### Installation and Usage
