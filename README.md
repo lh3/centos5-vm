@@ -29,6 +29,8 @@ your programs on this older system and produce portable precompiled binaries.
    vagrant up                          # launch VM
    vagrant ssh                         # ssh to VM
    ```
+   You can also find other Linux distributions from [vagrantbox.es][vbox].
+   The command lines are similar.
 
 4. The login account is `vagrant` with password `vagrant`. It has the `sudo`
    permission. Directory `/vagrant` in the VM is identical to `$HOME/centos5`
@@ -51,3 +53,4 @@ your programs on this older system and produce portable precompiled binaries.
 [vb43]: https://www.virtualbox.org/wiki/Download_Old_Builds_4_3
 [vg]: https://www.vagrantup.com/downloads.html
 [biobin]: https://sourceforge.net/projects/biobin/files/devtools/
+[vbox]: http://www.vagrantbox.es
