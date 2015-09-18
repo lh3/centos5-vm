@@ -16,7 +16,7 @@ your programs on this older system and produce portable precompiled binaries.
 #### Installation and Usage
 
 1. Install [VirtualBox][vb]. The VM was created on the [version 4.3.x][vb43],
-   though the latest version 5.0 may also work.
+   though the latest version 5.0 should also work.
 
 2. Install [Vagrant][vg].
 
@@ -30,7 +30,7 @@ your programs on this older system and produce portable precompiled binaries.
    vagrant ssh                         # ssh to VM
    ```
    You can also find other Linux distributions from [vagrantbox.es][vbox].
-   The command lines are similar.
+   The command lines to import other VMs are similar.
 
 4. The login account is `vagrant` with password `vagrant`. It has the `sudo`
    permission. Directory `/vagrant` in the VM is identical to `$HOME/centos5`
@@ -48,9 +48,16 @@ your programs on this older system and produce portable precompiled binaries.
    binaries compiled with this GCC or linked against Boost will be portable to
    other systems.
 
+#### Precompiled Bioinformatics Tools
+
+You can find some precompiled Bioinformatics tools [here][biobio]. Most of
+these were compiled using the VM described above. They should be working on
+most Linux distributions, old or new.
+
 [centos]: https://en.wikipedia.org/wiki/CentOS
 [vb]: https://www.virtualbox.org/wiki/Downloads
 [vb43]: https://www.virtualbox.org/wiki/Download_Old_Builds_4_3
 [vg]: https://www.vagrantup.com/downloads.html
 [biobin]: https://sourceforge.net/projects/biobin/files/devtools/
 [vbox]: http://www.vagrantbox.es
+[biobio]: https://sourceforge.net/projects/biobin/files/
